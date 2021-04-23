@@ -1,7 +1,7 @@
 import pandas as pd
 from multiprocessing import Pool  
 
-df = pd.read_csv("E:\working datasets\sales.csv")   # reading the data set
+df = pd.read_csv("E:\working datasets\sales.csv")   # Loading the data into pandas dataframe
 
 # function to apply a function over multiple cores
 
